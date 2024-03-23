@@ -15,7 +15,7 @@ To run this application locally, follow these steps:
 
 1. Clone this repository to your local machine: `git clone https://github.com/Hackhoven/bookstore-nodejs-mysql.git`
 2. Navigate to the project directory: `cd bookstore-nodejs-mysql/`
-3. Install dependencies: `npm install`
+3. Install dependencies: `npm install express mysql2 dotenv express-validator body-parser bcrypt express-session`
 4. Set up your MySQL database:
 - Ensure MySQL server is running on your machine.
 - Run the `book.sql` script to create the database, necessary tables, and populate initial data. You can do this using MySQL command line or any MySQL client tool.
@@ -24,7 +24,7 @@ To run this application locally, follow these steps:
   ```
   Replace `<username>` with your MySQL username.
 5. Configure the database connection in the `.env` file.
-6. Start the server: `npm start`
+6. Start the server: `node app.js`
 7. Open your web browser and visit `http://localhost:3000` to access the application.
 
 ## Usage
